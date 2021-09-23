@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Document</title>
+    <script>
+        function genius (){
+
+            var name = document.getElementById("a1").value;
+            var location = document.getElementById("a2").value;
+            var city = document.getElementById("a3").value;
+
+            document.getElementById("a4").value = name +", "+ location +", "+ city;
+        }
+    </script>
+</head>
+<body>
+    
+        <label style="margin-right: 78px;">name:</label>
+        <input type="text" id="a1"><br><br>
+    <label style="margin-right:70px ;">locatin:</label>
+    <input type="text" id="a2"><br><br>
+    <label style="margin-right: 89px;">city:</label>
+    <input type="text" id="a3"><br><br>
+    <button onclick="genius()" style="margin-left: 122px;" >submit</button><br><br>
+    <label style="margin-right: 70px;">Adress:</label>
+    <input type="text" id="a4">
+
+</body>
+</html>
